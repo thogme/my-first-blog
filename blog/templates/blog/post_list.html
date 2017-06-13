@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE>Timshel's Blog</TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.2  (Win32)">
+	<META NAME="CREATED" CONTENT="0;0">
+	<META NAME="CHANGED" CONTENT="20170613;16242806">
+	<STYLE TYPE="text/css">
+	<!--
+		PRE.cjk { font-family: "NSimSun", monospace }
+		CODE.cjk { font-family: "NSimSun", monospace }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="es-MX" DIR="LTR">
+<PRE LANG="en-GB" CLASS="western"><CODE CLASS="western"><SPAN LANG="en-GB">&lt;html&gt;</SPAN></CODE>
+<CODE CLASS="western">    </CODE><SPAN LANG="en-GB"><CODE CLASS="western"><SPAN LANG="en-GB">&lt;head&gt;</SPAN></CODE></SPAN>
+<CODE CLASS="western">        </CODE><SPAN LANG="en-GB"><CODE CLASS="western"><SPAN LANG="en-GB">&lt;title&gt;Timshel's blog&lt;/title&gt;</SPAN></CODE></SPAN>
+<CODE CLASS="western">    </CODE><SPAN LANG="en-GB"><CODE CLASS="western"><SPAN LANG="en-GB">&lt;/head&gt;</SPAN></CODE></SPAN>
+<CODE CLASS="western">    </CODE><SPAN LANG="en-GB"><CODE CLASS="western"><SPAN LANG="en-GB">&lt;body&gt;</SPAN></CODE></SPAN>
+<CODE CLASS="western">        </CODE><SPAN LANG="en-GB"><CODE CLASS="western"><SPAN LANG="en-GB">&lt;div&gt;</SPAN></CODE></SPAN>
+<CODE CLASS="western">            </CODE><SPAN LANG="en-GB"><CODE CLASS="western"><SPAN LANG="en-GB">&lt;h1&gt;&lt;a href=&quot;&quot;&gt;Timshel's Blog&lt;/a&gt;&lt;/h1&gt;</SPAN></CODE></SPAN>
+<CODE CLASS="western">        </CODE><SPAN LANG="en-GB"><CODE CLASS="western"><SPAN LANG="en-GB">&lt;/div&gt;</SPAN></CODE></SPAN>
+
+<CODE CLASS="western">        </CODE><SPAN LANG="en-GB"><CODE CLASS="western"><SPAN LANG="en-GB">{% for post in posts %}</SPAN></CODE></SPAN>
+<CODE CLASS="western">            </CODE><SPAN LANG="en-GB"><CODE CLASS="western"><SPAN LANG="en-GB">&lt;div&gt;</SPAN></CODE></SPAN>
+<CODE CLASS="western">                </CODE><SPAN LANG="en-GB"><CODE CLASS="western"><SPAN LANG="en-GB">&lt;p&gt;published: {{ post.published_date}}&lt;/p&gt;</SPAN></CODE></SPAN>
+                <SPAN LANG="en-GB">&lt;h1&gt;&lt;a href=&rdquo;&rdquo;&gt;<SPAN LANG="en-GB">{{ post.title }}&lt;/a&gt;&lt;/h1&gt;</SPAN></SPAN>
+<CODE CLASS="western">                </CODE><SPAN LANG="en-GB"><CODE CLASS="western"><SPAN LANG="en-GB">&lt;p&gt;{{ post.text|linebreaksbr }}&lt;/p&gt;</SPAN></CODE></SPAN>
+<CODE CLASS="western">            </CODE><SPAN LANG="en-GB"><CODE CLASS="western"><SPAN LANG="en-GB">&lt;/div&gt;</SPAN></CODE></SPAN>
+<CODE CLASS="western">        </CODE><SPAN LANG="en-GB"><CODE CLASS="western"><SPAN LANG="en-GB">{% endfor %}</SPAN></CODE></SPAN>
+
+<CODE CLASS="western">    </CODE><SPAN LANG="en-GB"><CODE CLASS="western"><SPAN LANG="en-GB">&lt;/body&gt;</SPAN></CODE></SPAN>
+<SPAN LANG="en-GB"><CODE CLASS="western"><SPAN LANG="en-GB">&lt;/html&gt;</SPAN></CODE></SPAN></PRE>
+</BODY>
+</HTML>
